@@ -805,14 +805,15 @@
   }
 
   .contact-actions {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 9px;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-content: center;
   }
 
   .contact-actions .button-link {
-    min-width: 0;
-    padding: 0 5px;
+    min-width: 63px;
+    padding: 0 13px;
   }
 
   .contact-card p {
