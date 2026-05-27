@@ -67,4 +67,4 @@ public/        Static public assets
 
 - Email: ryanplee0327@gmail.com
 - LinkedIn: https://www.linkedin.com/in/ryan-lee-56986b242/
-- GitHub: https://github.com/ryanlee-csus
+- GitHub: https://github.com/ryanlee3d

@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import festaItaliaImage from './assets/festa-italia.png'
 import './App.css'
 
-const githubHref = 'https://github.com/ryanlee-csus'
+const githubProfileHref = 'https://github.com/ryanlee3d'
+const roboRockHref = 'https://github.com/ryanlee3d/RoboRock-Public'
 
 const navItems = [
   { label: 'Projects', href: '#projects' },
@@ -47,7 +48,7 @@ const secondaryProjects = [
     tech: 'Java | OpenGL | Blender | TAGE',
     description:
       'Designed modular game using TAGE game engine. Managed assets such as animated objects, textures, 3D sounds, terrain height maps, and skyboxes.',
-    actions: [{ label: 'Github', href: githubHref }],
+    actions: [{ label: 'ryanlee3d/RoboRock-Public', href: roboRockHref }],
   },
 ]
 
@@ -72,17 +73,16 @@ const skillGroups = [
     items: ['Java', 'C++', 'Python', 'JavaScript', 'C', 'Shell Scripting'],
   },
   {
-    title: 'Learning:',
-    items: ['Angular', 'Vue.js', 'Node.js', 'Laravel', 'AWS', 'Claude Code'],
-  },
-  {
     title: 'Tools:',
     items: ['Git', 'GitHub', 'Docker', 'Jira', 'VS Code', 'Codex'],
   },
   {
-    title: 'Data Visualization:',
-    items: ['Pandas', 'Tableau', 'Observable HQ', 'Data Aggregation'],
-    className: 'is-data',
+    title: 'Data Graphics:',
+    items: ['Pandas', 'Tableau', 'Observable HQ', 'Data Aggregation', 'Data Cleaning', 'Interactive'],
+  },
+  {
+    title: 'Learning:',
+    items: ['Angular', 'Vue.js', 'Node.js', 'Laravel', 'AWS', 'Claude Code'],
   },
 ]
 
@@ -104,7 +104,7 @@ const focusAreas = [
 const contactLinks = [
   { label: 'Email Me', href: 'mailto:ryanplee0327@gmail.com' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ryan-lee-56986b242/' },
-  { label: 'GitHub', href: githubHref },
+  { label: 'GitHub', href: githubProfileHref },
 ]
 
 const getLinkProps = (href) =>
