@@ -484,6 +484,12 @@
   margin: 0;
 }
 
+.site-footer a {
+  color: var(--text-light);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 @media (max-width: 860px) {
   .site-nav {
     height: 72px;

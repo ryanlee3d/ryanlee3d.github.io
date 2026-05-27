@@ -4,6 +4,8 @@ import './App.css'
 
 const githubProfileHref = 'https://github.com/ryanlee3d'
 const roboRockHref = 'https://github.com/ryanlee3d/RoboRock-Public'
+const figmaPortfolioHref =
+  'https://www.figma.com/design/qLs5VopRlz3QFiZA0PCD3D/Ryan-Lee-Portfolio?node-id=11-95&t=DAwoGbEOS7nsJkof-1'
 
 const navItems = [
   { label: 'Projects', href: '#projects' },
@@ -389,7 +391,12 @@ function App() {
       </main>
 
       <footer className="site-footer">
-        <p>Built by Ryan Lee | React Portfolio</p>
+        <p>
+          Built by Ryan Lee | React Portfolio | Designed in{' '}
+          <a href={figmaPortfolioHref} {...getLinkProps(figmaPortfolioHref)}>
+            Figma
+          </a>
+        </p>
       </footer>
     </>
   )
