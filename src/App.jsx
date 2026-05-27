@@ -341,8 +341,8 @@ function App() {
               <p>
                 I'm early in my professional career, but I'm curious, coachable,
                 and motivated to keep improving as a developer. I enjoy
-                team-based projects, clear communication, good documentation,
-                and building tools that make work life easier.
+                team-based projects, clear communication, and building 
+                tools that make work life easier.
               </p>
             </div>
 
